@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positive, negative or neutral?</title>
+    <style>
+
+        html, body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .msg{
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            max-width: 600px;
+            box-sizing: border-box;
+            padding: 1rem;
+        }
+
+        .msg__header{
+            display: block;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 500;
+            color: white;
+        }
+
+        .msg__text--red{
+            color: blue
+        }
+
+    </style>
+</head>
+<body>
+    <span class="msg">
+        <h3 class="msg__header">
+            <span class="msg__text--red">
+                Refresh
+            </span> 
+            your browser to restart.
+        </h3>
+    </span>
+    <script src="./script.js"></script>
+
+</body></html>
